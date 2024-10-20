@@ -9,10 +9,16 @@
       "distribution": "internal"
     },
     "preview": {
-      "distribution": "internal"
+      "distribution": "internal",
+      "env": {
+        "REACT_APP_API_KEY": "t9VmdkTFpQ3zX8I6m5d8idtiLIsu3kWK"  
+      }
     },
     "production": {
-      "autoIncrement": true
+      "autoIncrement": true,
+      "env": {
+        "REACT_APP_API_KEY": "t9VmdkTFpQ3zX8I6m5d8idtiLIsu3kWK"  
+      }
     }
   },
   "submit": {
